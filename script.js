@@ -11,9 +11,7 @@ document.addEventListener('keyup', (e)=> {
 
   if (e.code == 'Digit1') {
     navPerfil.style.display = 'block'
-  }
-
-  else if (e.code == 'Escape') {
+  } else if (e.code == 'Escape') {
     navPerfil.style.display = 'none'
   }
 })
